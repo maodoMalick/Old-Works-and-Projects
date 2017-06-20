@@ -1,0 +1,382 @@
+/*------- Global Styles/ CSS Reset-----------*/
+html, body, div, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/*------- Whole Content Styles ---------------*/
+#mainContainer {
+    margin: 0 auto 20px;
+    max-width: 1450px;
+    min-width: 1400px;
+    position: relative;
+    width: 80%;
+}
+
+#topHead {
+    height: 35px;
+}
+
+#dateTime {
+    font-family: helvetica;
+    font-size: 0.7em;
+    left: 400px;
+    position: absolute;
+    top: 18px;
+}
+
+/*---------- topMenuLeft --------------*/
+#topMenuLeft {
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    position: absolute;
+    top: 13px;
+}
+
+#topMenuLeft ul {
+    list-style: none outside none;
+}
+
+#topMenuLeft li {
+    float: left;
+}
+
+#topMenuLeft a {
+    border-right: 1px solid #000000;
+    color: #000000;
+    display: block;
+    font-size: 0.8em;
+    line-height: 20px;
+    padding: 2px 20px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#topMenuLeft a:hover {
+    text-decoration: underline;
+}
+
+/*---------- topMenuRight --------------*/
+#topMenuRight {
+    position: absolute;
+    top: 13px;
+}
+
+#topMenuRight {
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+
+#topMenuRight ul {
+    list-style: none;
+}
+
+#topMenuRight li {
+    float: left;
+}
+
+#topMenuRight a {
+    border-right: 1px solid #000000;
+    color: #000000;
+    font-size: 0.7em;
+    line-height: 10px;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#topMenuRight a:hover {
+    text-decoration: underline;
+}
+
+#topMenuRight li:last-of-type a {
+    border-right: none;
+}
+
+/*----------- Header-Section ---------------------------------------------------------*/
+#header {
+    border-bottom: 1px solid #000000;
+    font-family: georgia,serif;
+    letter-spacing: 0.5em;
+    text-align: center;
+}
+
+#leftAd {
+    height: 58px;
+    left: 1px;
+    margin: 1px 0 1px 1px;
+    position: absolute;
+    width: 105px;
+}
+
+#leftAd img {
+    margin: 0;
+    width: 100%;
+}
+
+#rightAd {
+    height: 58px;
+    margin: 1px;
+    position: absolute;
+    right: 1px;
+    width: 105px;
+}
+
+#rightAd img {
+    margin: 0;
+    width: 100%;
+}
+
+/*----------- Navigation -------------------------------------------------------------*/
+#navBar {
+    border-bottom: 1px solid #000000;
+    height: 25px;
+    position: relative;
+    width: 100%;
+}
+
+#navBar ul {
+    list-style: none outside none;
+    position: absolute;
+}
+
+#navBar li {
+    float: left;
+}
+
+#navBar a {
+    border-right: 1px solid #000000;
+    color: #000000;
+    display: block;
+    font-family: georgia,serif;
+    font-size: 0.72em;
+    line-height: 25px;
+    margin: 0;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#navBar a:hover {
+    text-decoration: underline;
+}
+
+#navBar li:last-of-type a {
+    border-right: none;
+}
+
+/*------------------------------ Main Content ------------------------------*/
+
+h1 {
+    padding: 10px;
+}
+
+h2, h3 {
+    color: #000066;
+    font-family: georgia,serif;
+}
+
+.noLink a {
+    color: #000066;
+    text-decoration: none;
+}
+
+.noLink a:hover {
+    text-decoration: underline;
+}
+
+p {
+    border-bottom: 1px solid #000000;
+    margin: 5px auto 10px;
+    padding-bottom: 10px;
+}
+
+#siteContent {
+    border: 1px solid #000000;
+}
+
+#masterCols {
+    border-right: 1px solid #000000;
+    float: left;
+    width: 40.5%;
+}
+
+#topDiv {
+    border-bottom: 1px solid #000000;
+    font-size: 0.8em;
+    letter-spacing: 0.09em;
+    padding: 5px;
+}
+
+#topDiv h3 {
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.innerCols {
+    border-right: 1px solid #000000;
+    float: left;
+    font-size: 0.8em;
+    letter-spacing: 0.09em;
+    padding: 5px;
+    width: 31%;
+}
+
+.cols {
+    border-right: 1px solid #000000;
+    float: left;
+    font-size: 0.8em;
+    letter-spacing: 0.09em;
+    padding: 5px;
+    width: 13.5%;
+}
+
+#wideCol {
+    border-right: 1px solid #000000;
+    float: left;
+    font-size: 0.8em;
+    letter-spacing: 0.09em;
+    padding: 5px;
+    width: 27%;
+}
+
+#sideBar {
+    float: left;
+    font-size: 0.8em;
+    letter-spacing: 0.09em;
+    padding: 5px;
+    width: 13.9%;
+}
+
+#classified {
+    float: left;
+    width: 31.51%;
+}
+
+#classified h2 {
+    border-bottom: 1px solid #000000;
+    text-align: center;
+}
+
+.classifiedCols {
+    border-right: 1px solid #000000;
+    float: left;
+    font-size: 0.8em;
+    letter-spacing: 0.09em;
+    padding: 5px;
+    width: 46.5%;
+}
+
+.lastCol {
+    border-right: medium none;
+}
+
+.classifiedCols h3 {
+    border-bottom: 1px solid #000000;
+    text-align: center;
+}
+
+.classifiedCols ul {
+    list-style: square outside none;
+    margin: 5px 0 20px 10px;
+}
+
+.classifiedCols li {
+    border-bottom: 1px solid #000000;
+}
+
+.classifiedCols a {
+    background: none repeat scroll 0 0 #DFDFD0;
+    color: #000000;
+    display: block;
+    font-weight: bold;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.classifiedCols a:hover {
+    text-decoration: underline;
+}
+
+.classifiedCols ul:last-child a {
+    border-bottom: medium none;
+}
+
+
+
+/*-------- Content Images  -------------------------------------*/
+#masterCols img {
+    margin-top: 5px;
+    width: 98%;
+}
+
+.innerCols img {
+    margin-top: 5px;
+    width: 98%;
+}
+
+.cols img {
+    margin-top: 5px;
+    width: 98%;
+}
+
+#wideCol img {
+    margin-top: 5px;
+    width: 100%;
+}
+
+#sideBar img {
+    margin-top: 5px;
+    width: 100%;
+}
+
+#lostCats {
+    border: 1px solid #808080;
+}
+
+
+.classifiedCols img {
+    margin-top: 5px;
+    width: 98%;
+}
+
+/*----------------------- Extend all inner and outer columns Heights.-------------------------*/
+
+#masterCols, .innerCols, #wideCol, #classified, .classifiedCols {
+	padding-bottom: 1000em;
+	margin-bottom: -1000em;
+}
+
+#colsContainer {
+	overflow:hidden;
+}
+
+
+/*----------- Footer -------------------------------------------------------------*/
+#footer {
+    border-top: 1px solid #000000;
+    clear: both;
+    text-align: center;
+}
+
+#footer p {
+    border-bottom: medium none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer a {
+    color: #808080;
+    font-family: verdana, sans-serif;
+	font-size:.8em;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #000000;
+    font-style: italic;
+}
+
+

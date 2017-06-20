@@ -1,0 +1,18 @@
+House: x=127 y=103
+Family: x=290 y=103
+BullHorn: x=470 y=103
+LIE: x=100 y=230
+iMac: x=280 y=230
+cabin: x=420 y=230
+Petals: x=90 y=335
+Docs: x=190 y=335
+Printer: x=270 y=335
+shopCart: x=350 y=335
+Sound:x=80 y=415
+Lock: x=160 y=415
+Magnifier: x= 235 y=415
+Notes: x=310 y=415	
+ArrowDown: x=375 y=415
+ArrowRight: x=440 y=415	
+SunBurst: x=500 y=415	
+wheelSpin: x=80 y=500

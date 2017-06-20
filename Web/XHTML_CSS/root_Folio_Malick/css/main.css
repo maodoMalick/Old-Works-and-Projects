@@ -1,0 +1,77 @@
+body {
+    font-family: verdana,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    text-align: center;
+}
+h3, h4{
+    margin-left: 25px;
+}
+#mainBox {
+    border: 1px solid #CCCCCC;
+    border-radius: 0 0 25px;
+    box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.3);
+    margin: -20px auto 0;
+    width: 70%;
+}
+#header {
+    background: none repeat scroll 0 0 #660000;
+    border-bottom: 1px solid #000000;
+    box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+    font-size: 0.5em;
+    letter-spacing: 3em;
+    line-height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#sideBar h4 {
+	color:white;
+	font-size: .8em;
+}
+#sideBar  {
+    /*margin-top; 100px;*/
+	background-color:black;
+}
+#sideBar {
+    border-radius: 0 0 25px;
+    border-right: 1px solid #CCCCCC;
+    box-shadow: 5px 5px 40px 5px rgba(0, 0, 0, 0.3);
+    float: left;
+    height: 530px;
+    margin: 0;
+    padding-top: 50px;
+    width: 20%;
+}
+#sideBar ul {
+    list-style: square outside none;
+	color: #660000;
+}
+#sideBar a {
+    color: #424251;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+	font-size: .8em;
+}
+#sideBar a:hover {
+	color: #660000;
+	letter-spacing: 0.2em;
+    /*text-decoration: underline;*/
+}
+#content {
+    float: left;
+    font-family: georgia,serif;
+    margin: 50px;
+    text-align: justify;
+    width: 60%;
+}
+#content ul {
+    /*list-style: circle outside none;*/
+}
+#doClear {
+    clear: both;
+}

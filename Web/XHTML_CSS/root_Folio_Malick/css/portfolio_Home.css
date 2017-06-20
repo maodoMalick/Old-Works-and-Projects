@@ -1,0 +1,230 @@
+/*------- Global Styles/ CSS Reset-----------*/
+html, body, div, h1, h2, h3, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+/*------- Whole Content Styles ---------------*/
+#mainContainer {
+	width: 85%;
+	margin: 0 auto 20px;
+	position: relative;
+}
+
+#topHead {
+	height: 35px;
+}
+
+#dateTime {
+	position: absolute;
+	top: 18px;
+	left: 400px;
+	font-family: helvetica;
+	font-size: .7em;
+}
+
+/*---------- topMenuLeft --------------*/
+#topMenuLeft {
+	position: absolute;
+	top: 13px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+}
+
+#topMenuLeft ul {
+	list-style: none;
+}
+
+#topMenuLeft li {
+	float: left;
+}
+
+#topMenuLeft a {
+	font-size: .8em;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 2px 20px 0;
+	line-height: 20px;
+	display: block;
+	border-right: 1px solid black;
+}
+
+#topMenuLeft a:hover {
+	text-decoration: underline;
+}
+
+/*---------- topMenuRight --------------*/
+#topMenuRight {
+	position: absolute;
+	top: 13px;
+}
+
+#topMenuRight {
+	position: absolute;
+	top: 15px;
+	right: 0;
+}
+
+#topMenuRight ul {
+	list-style: none;
+}
+
+#topMenuRight li {
+	float: left;
+}
+
+#topMenuRight a {
+	font-size: .7em;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 20px;
+	line-height: 10px;
+	display: ; /*Ignoring this makes the border-right (below) shorter. */
+	border-right: 1px solid black;
+}
+
+#topMenuRight a:hover {
+	text-decoration: underline;
+}
+
+#topMenuRight .last {
+	border-right: none;
+}
+
+/*----------- Banner---------------------------------------------------------*/
+#banner {
+	font-family: georgia, serif;
+	font-size: ;
+	letter-spacing: .5em;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+/*----------- Main Content -------------------------------------------------------------*/
+h1 {
+	padding: 10px;
+	line-height:;
+}
+
+h2, h3{
+	font-family: georgia, serif;
+	color: #000066;
+	padding: ;
+}
+
+.noLink a{
+	text-decoration: none;
+	color: #000066;	
+}
+
+.noLink a:hover{
+	text-decoration: underline;
+}
+
+p {
+	margin: 5px auto 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+}
+
+#siteContent {
+	border: 1px solid black;
+}
+
+.cols {
+	width: 13.5%;
+	float: left;
+	padding: 5px;
+	font-size: .8em;
+	letter-spacing: .09em;
+	border-right: 1px solid black;
+}
+
+.cols img {
+	width: 98%;
+	margin-top: 5px;
+}
+
+#wideCol img {
+	width: 99%;
+	margin-top: 5px;
+}
+
+#sideBar img {
+	width: 100%;
+	margin-top: 5px;
+} 
+
+#videoBox {
+	height: 195px;
+	margin-bottom: 10px;
+	padding: 2px 0;
+	width: 100%;
+	background: black;
+}
+
+#videoBox object{
+	height: 195px;
+	padding: 2px 0;
+	width: 100%;
+	background: black;
+}
+
+#lostCats {
+	border: 1px solid grey;
+}
+
+#wideCol {
+	width: 27%;
+	float: left;
+	padding: 5px;
+	font-size: .8em;
+	letter-spacing: .09em;
+	border-right: 1px solid black;
+}
+
+#sideBar {
+	width: 13%;
+	float: right;
+	padding: 5px;
+	font-size: .8em;
+	letter-spacing: .09em;
+}
+
+/*----------------------- Extend all columns Heights.-------------------------*/
+.cols, #wideCol, #sideBar {
+	padding-bottom: 1000em;
+	margin-bottom: -1000em;
+}
+
+#colsContainer {
+	overflow:hidden;
+}
+
+/*----------- Footer -------------------------------------------------------------*/
+#footer {
+	clear: both;
+	text-align: center;
+	border-top: 1px solid black;
+}
+
+#footer  p{
+	margin: 0;
+	padding: 0;
+	border-bottom: none;
+}
+
+#footer  a{
+	font-family: verdana, sans-serif;
+	font-size:.8em;
+	color: grey;
+	line-height: 25px;
+	text-decoration: none;
+}
+
+#footer  a:hover{
+	color: black;
+	font-style: italic;
+}

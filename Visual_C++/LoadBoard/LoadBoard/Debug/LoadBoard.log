@@ -1,0 +1,31 @@
+﻿Build started 6/20/2017 2:17:50 PM.
+     1>Project "C:\Users\Owner\Dropbox\MyGitHouse\Codes_Vault\Visual_C++\LoadBoard\LoadBoard\LoadBoard.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\MySQL\Connector.NET 6.9\Assemblies\v4.5\MySql.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib LoadBoardDisplay.cpp Login.cpp Register.cpp SignUp.cpp
+         LoadBoardDisplay.cpp
+         Login.cpp
+     1>c:\users\owner\dropbox\mygithouse\codes_vault\visual_c++\loadboard\loadboard\Login.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         Register.cpp
+     1>c:\users\owner\dropbox\mygithouse\codes_vault\visual_c++\loadboard\loadboard\Register.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\owner\dropbox\mygithouse\codes_vault\visual_c++\loadboard\loadboard\SignUp.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\owner\dropbox\mygithouse\codes_vault\visual_c++\loadboard\loadboard\Login.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\owner\dropbox\mygithouse\codes_vault\visual_c++\loadboard\loadboard\Register.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>Register.cpp(6): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+         SignUp.cpp
+     1>c:\users\owner\dropbox\mygithouse\codes_vault\visual_c++\loadboard\loadboard\SignUp.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\owner\dropbox\mygithouse\codes_vault\visual_c++\loadboard\loadboard\Login.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Owner\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Owner\Dropbox\MyGitHouse\Codes_Vault\Visual_C++\LoadBoard\Debug\LoadBoard.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\LoadBoard.LoadBoardDisplay.resources /ASSEMBLYRESOURCE:Debug\LoadBoard.Login.resources /ASSEMBLYRESOURCE:Debug\LoadBoard.Register.resources /ASSEMBLYRESOURCE:Debug\LoadBoard.SignUp.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Owner\Dropbox\MyGitHouse\Codes_Vault\Visual_C++\LoadBoard\Debug\LoadBoard.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\LoadBoardDisplay.obj
+         Debug\Login.obj
+         Debug\Register.obj
+         Debug\SignUp.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         LoadBoard.vcxproj -> C:\Users\Owner\Dropbox\MyGitHouse\Codes_Vault\Visual_C++\LoadBoard\Debug\LoadBoard.exe
+     1>Done Building Project "C:\Users\Owner\Dropbox\MyGitHouse\Codes_Vault\Visual_C++\LoadBoard\LoadBoard\LoadBoard.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.84

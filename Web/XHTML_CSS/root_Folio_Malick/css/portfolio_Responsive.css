@@ -1,0 +1,274 @@
+body, div, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+	font-family: georgia, serif;
+	
+}
+h1, h2, h3 {
+	color: #2f2c2c;
+}
+p {
+	font-size: .95em;
+}
+
+/*--------------- Global Styles -----------------*/
+#mainBox {
+	position: relative;
+	/* width: 70%; */
+	/*max-*/width: 950px;
+	margin: 0 auto;
+	padding: 0;
+	/* background: green; */
+	border: 1px solid black;
+}
+
+#header {
+	height: 100px;
+	margin: 1%;
+	background: rgb(35,35,35) url(../images/midtown_Grill.png) no-repeat 10px 10px;
+}
+
+#navBar {
+	position: absolute;
+	top: 30px;
+	right: 10px;
+	width: 100%;
+	/* height: 55px; */
+}
+
+ul {
+	position: absolute;
+	padding-right: 0;
+	/* height: 30px; */
+	right: 0;
+	list-style: none;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	color: grey;
+	margin-right: 10px  ;
+	padding-left: 10px;
+	font-family: verdana, sans-serif;
+	font-size: .8em;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-left: 1px solid rgb(55, 55, 55);
+}
+
+li a:hover {
+	color: #fff;
+}
+
+ul li:first-of-type a {
+	border-left: none;
+}
+
+ul li:last-of-type a {
+	padding-right: 0;
+}
+
+select {
+	display: none;
+}
+
+#sideBarHorizPos {
+	display: none;
+}
+
+#banner {
+	width: 98%;
+	margin: 0 auto 1%;
+	/* background: black ; */
+}
+
+#banner img{
+	width: 100%;
+}
+
+#leftContent {
+	width: 81%;
+	float: left;
+	margin-left: 1%;
+}
+
+#articleOne {
+	float: left;
+	width: 47.3%;
+	padding: 1%;
+	background: #ccc;
+}
+
+#articleTwo {
+	float: right;
+	width: 47.3%;
+	padding: 1%;
+	margin-left: 1%;
+	background: #ccc;
+}
+
+#articleThree {
+	float: left;
+	width: 98%;
+	padding: 1%;
+	margin: 1% 0 1% 0;
+	border: 1px solid black;
+}
+
+#articleThree img{
+	width: 42%;
+	float: left;
+}
+
+#sideBar {
+	float: right;
+	width: 14%;
+	padding: 1%;
+	margin: 0 1% 1% 1%;
+	color: #fff;
+	background: #000;
+}
+
+#sideBar h3 {
+	color: #fff;
+}
+
+/*--------- Extend Column Heights ------------------*/
+#leftContent, #sideBar {
+	padding-bottom: 1000em;
+	margin-bottom: -1000em;
+}
+
+#mainContent {
+	overflow:hidden;
+}
+
+/*--------- Footer------------------------------*/
+#footer {
+		clear: both;
+		height:50px;
+		color: white;
+		text-align: center;
+		background: #000;
+		text-align: center;
+	}
+#footer p {
+	padding-top: 10px;
+	text-transform: uppercase;
+	font-size: .6em;
+}
+
+/*------------- Desktop Styles --------------------------------------------*/
+@media only screen and (min-width: 769px) {
+	#mainBox {
+		width: 70%;	
+	}
+} 
+
+/*------------- Tablet Styles -------------------------------------------*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	
+	#mainBox {
+		width: 70%;	
+	}
+	
+	#navBar {
+		top: 65px;
+	}
+	
+	#sideBar {
+		display:none;
+	}
+	
+	#leftContent {
+		width: 98%;
+	}
+	
+	#articleOne {
+		width: 47.4%;
+	}
+	
+	#articleTwo {
+		width: 47.4%;
+	}
+	
+	li a {
+	margin-right: 6px  ;
+	padding-left: 6px;
+	font-size: .7em;
+	}
+
+}
+
+/*------------ Tablets Ext. -------------------------*/
+@media only screen and (min-width: 320px) and (max-width: 950px){
+	#mainBox {
+		width: 70%;	
+	}
+	#sideBarHorizPos {
+		color: red;
+		display: block;
+	}
+	#articleTwo {
+		/*color: blue;*/
+	}
+}
+
+/*------------- SmartPhones Styles ---------------------------------------------------------*/
+@media only screen and (max-width: 480px) {
+	
+	#mainBox {
+	width: 320px;
+	margin: 0 auto;
+	}
+	
+	ul {
+	display: none;
+	}
+	
+	select {
+	display: block;
+	width: 313px;
+	position: absolute;
+	top: 74px;
+	left: 13px;
+	text-transform: uppercase;
+	}
+	
+	#banner {
+		margin-top: 7%;
+		height: 213px;
+		background: url(../images/telemarketers_Crop.jpg) no-repeat;
+	}
+	
+	#banner img {
+		display: none;
+		height: 213px;
+		background:red;
+	}
+
+	#sideBar {
+		display:none;
+	}
+	
+	#leftContent {
+		width: 98%;
+		/* background: green; */
+	}
+	
+	#articleOne {
+		width: 98%;
+		margin-bottom: 1%;
+	}
+	
+	#articleTwo {
+		width: 98%;
+	}
+	h2 {
+		text-align: center;
+	}
+}
+
