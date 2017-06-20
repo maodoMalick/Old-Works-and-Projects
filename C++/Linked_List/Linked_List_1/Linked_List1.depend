@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1493598876 source:c:\users\mbirkilane\dropbox\c++_dropbox\c++_lessons\advanced_c++\stl containers\04_lists\linked_list1\linklist.cpp
+	"LinkList.h"
+	<iostream>
+
+1493598693 c:\users\mbirkilane\dropbox\c++_dropbox\c++_lessons\advanced_c++\stl containers\04_lists\linked_list1\linklist.h
+	<iostream>
+
+1493598794 source:c:\users\mbirkilane\dropbox\c++_dropbox\c++_lessons\advanced_c++\stl containers\04_lists\linked_list1\main.cpp
+	<iostream>
+	"LinkList.h"
+
+1493831614 source:c:\users\mbirkilane\dropbox\c++_dropbox\c++_lessons\advanced_c++\stl containers\04_lists\singly_linked_list\linked_list_1\linklist.cpp
+	"LinkList.h"
+	<iostream>
+	<cstdlib>
+	<algorithm>
+	"ctype.h"
+
+1493828726 c:\users\mbirkilane\dropbox\c++_dropbox\c++_lessons\advanced_c++\stl containers\04_lists\singly_linked_list\linked_list_1\linklist.h
+	<iostream>
+
+1493831614 source:c:\users\mbirkilane\dropbox\c++_dropbox\c++_lessons\advanced_c++\stl containers\04_lists\singly_linked_list\linked_list_1\main.cpp
+	<iostream>
+	<cstdlib>
+	"LinkList.h"
+
+1494094110 source:c:\users\admin\dropbox\c++_dropbox\c++_lessons\advanced_c++\stl containers\04_lists\singly_linked_list\linked_list_1\linklist.cpp
+	"LinkList.h"
+	<iostream>
+	<cstdlib>
+	<algorithm>
+	"ctype.h"
+	<string>
+	<limits>
+
+1494097790 c:\users\admin\dropbox\c++_dropbox\c++_lessons\advanced_c++\stl containers\04_lists\singly_linked_list\linked_list_1\linklist.h
+	<iostream>
+
+1494097655 source:c:\users\admin\dropbox\c++_dropbox\c++_lessons\advanced_c++\stl containers\04_lists\singly_linked_list\linked_list_1\main.cpp
+	<iostream>
+	<cstdlib>
+	"LinkList.h"
+
+1496779468 source:c:\users\owner\dropbox\mygithouse\codes_vault\c++\linked_list\linked_list_1\main.cpp
+	<iostream>
+	<cstdlib>
+	"LinkList.h"
+
+1496773287 c:\users\owner\dropbox\mygithouse\codes_vault\c++\linked_list\linked_list_1\linklist.h
+	<iostream>
+
+1496774856 source:c:\users\owner\dropbox\mygithouse\codes_vault\c++\linked_list\linked_list_1\linklist.cpp
+	"LinkList.h"
+	<iostream>
+	<cstdlib>
+	<algorithm>
+	"ctype.h"
+	<string>
+	<limits>
+
