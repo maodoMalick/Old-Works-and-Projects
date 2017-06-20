@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1494240411 source:c:\users\admin\dropbox\nextbookgit\code_vault\c++\hashtables\metrobus\main.cpp
+	<iostream>
+	"HashClass.h"
+
+1494241419 c:\users\admin\dropbox\nextbookgit\code_vault\c++\hashtables\metrobus\hashclass.h
+	<iostream>
+
+1494240984 source:c:\users\admin\dropbox\nextbookgit\code_vault\c++\hashtables\metrobus\hashclass.cpp
+	"HashClass.h"
+	<iostream>
+	<fstream>
+
+1494292069 source:c:\users\admin\dropbox\nextbookgit\code_vault\c++\hashtables\_metrobus_v2\metrobus\main.cpp
+	<iostream>
+	"HashClass.h"
+
+1494276005 c:\users\admin\dropbox\nextbookgit\code_vault\c++\hashtables\_metrobus_v2\metrobus\hashclass.h
+	<iostream>
+
+1494296088 source:c:\users\admin\dropbox\nextbookgit\code_vault\c++\hashtables\_metrobus_v2\metrobus\hashclass.cpp
+	"HashClass.h"
+	<iostream>
+	<fstream>
+
+1494341579 source:c:\users\admin\dropbox\nextbookgit\code_vault\c++\hashtables\_metrobus_v3\metrobus\main.cpp
+	<iostream>
+	"HashClass.h"
+
+1494341386 c:\users\admin\dropbox\nextbookgit\code_vault\c++\hashtables\_metrobus_v3\metrobus\hashclass.h
+	<iostream>
+
+1494341753 source:c:\users\admin\dropbox\nextbookgit\code_vault\c++\hashtables\_metrobus_v3\metrobus\hashclass.cpp
+	"HashClass.h"
+	<iostream>
+	<fstream>
+
+1495007325 source:c:\users\admin\dropbox\mygithouse\codes_vault\c++\hashtables\metrobus\main.cpp
+	<iostream>
+	"HashClass.h"
+
+1495007325 c:\users\admin\dropbox\mygithouse\codes_vault\c++\hashtables\metrobus\hashclass.h
+	<iostream>
+
+1495007325 source:c:\users\admin\dropbox\mygithouse\codes_vault\c++\hashtables\metrobus\hashclass.cpp
+	"HashClass.h"
+	<iostream>
+	<fstream>
+	<string>
+	<stdio.h>
+	<ctype.h>
+
+1496867638 source:c:\users\owner\dropbox\mygithouse\codes_vault\c++\hashtables\metrobus\main.cpp
+	<iostream>
+	"HashClass.h"
+
+1496957899 c:\users\owner\dropbox\mygithouse\codes_vault\c++\hashtables\metrobus\hashclass.h
+	<iostream>
+
+1496952056 source:c:\users\owner\dropbox\mygithouse\codes_vault\c++\hashtables\metrobus\hashclass.cpp
+	"HashClass.h"
+	<iostream>
+	<fstream>
+	<string>
+
